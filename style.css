@@ -270,9 +270,11 @@ a{
 }*/
 .song-name{
     font-size: 1rem;
+    margin: 0.1rem;
 }
 .writer-name{
     font-size: 0.7rem;
+    margin: 0.1rem;
 }
 .controls{
     width: 25%;
