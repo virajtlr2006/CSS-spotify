@@ -248,7 +248,6 @@ a{
     margin-top: -6px;
 }
 .album{
-    background-color: yellow;
     width: 25%;
     display: flex;
     height: 100%;
@@ -263,17 +262,40 @@ a{
 .album-image{
     border-radius: 0.5rem;
 }
-/*.album-name{
-    background-color: pink;
+.album-name{
+    height: 100%;
+    margin-left: 0.5rem;
     display: flex;
     flex-direction: column;
-}*/
+    justify-content: center;
+}
+.album-icon{
+    padding-left: 4rem;
+    display: flex;
+}
+ .album-icon img{
+    height: 1.5rem;
+    width: 1.5rem;
+    flex-direction: column;
+} 
 .song-name{
     font-size: 1rem;
 }
 .writer-name{
+    opacity: 0.7;
     font-size: 0.7rem;
+    text-decoration: underline;
 }
 .controls{
+    height: 100%;
     width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    align-items: center;
+    padding-left:1.5rem ;
+}
+.c-icon{
+    height: 2rem;
+    width: 2rem;
 }
